@@ -1,0 +1,51 @@
+<html>
+<head>
+      <title>Javascript</title>
+     <h1>Assignment2</h1>
+    </head>
+<body bgcolor="yellow">
+  <script>
+    document.write("Open console box for the ouput");
+    document.write("<br/>A) Functions of strings are as follows:-");
+    var name="vighnesh sudhir kamath";
+    console.log("string for opertions to perform is= ",name);
+    document.write("<br/> The string is ",name);
+      document.write("<br/>1.length:-It will return the total no of characters including spaces in the string.Return type is int.");
+      console.log("The length of stringis",name.length);
+      document.write("<br/>2.Substring(int beginIndex):-It will return the string from begin index to last index.Return type is String.");
+      console.log("The substring is",name.substring(3));
+      document.write("<br/>3.substring(int begin,int end):-It will return string from begin to end index.Return type is string.");
+      console.log("The substring is",name.substring(9,15));
+      document.write("<br/>4.includes(charsequense s):-Returns if string or charater is present.Return type is boolean");
+      console.log("Does the given substring is presnt in string or not?",name.includes("kam"));
+      document.write("<br/>5.concat(string atr):-Joins the two string.Return type is string.");
+      console.log("String name afte adding renuka becomes ",name.concat(" Renuka"));
+      document.write("<br/>6.replace(char old,char new):-replaces new char/string with old character/string.Return type is string.");
+      console.log("Replace vighnesh with nikita:- ",name.replace("vighnesh","nikita"));
+      var name1="    sahilphalle   "
+      document.write("<br/>7.trim():-Removes all white blank spaces before and after the string.Return type is string.");
+      console.log("string before using trim() is:",name1);
+      console.log("string after using trim() is:",name1.trim());
+      document.write("<br/>8.charCodeAt():-Returbs the unicode of charachter at a given index.Return type is int.");
+      console.log("The char code at 0th index of strig is:-",name.charCodeAt(0));
+      document.write("<br/>");
+      document.write("<br/>");
+      document.write("<br/>");
+      document.write("B) Functions of array are as follows:-");
+      var arr=['one','two','three','four','five'];
+      console.log("The array to perform operation is ",arr);
+      document.write("<br/>The array is ",arr);
+      document.write("<br/>1.pop():-It rturns the value that is popped.Return type is char");
+      console.log("ARRAY after removing last element is ",arr.pop());
+     document.write("<br/>2.push():-It adds the elemant at the endof and return the lenghth of  array.Return type is int");
+      console.log("ARRAY after adding last element lenghth is ",arr.push('six'));
+      document.write("<br/>3.shift():-It removes the 1st array element and shifts all other elemsntsto lower index.It eturns the value that is shifted.");
+      console.log("Array after shifting",arr.shift());
+      document.write("<br/>4.splice():-Adds new element to array.");
+      console.log("Array after splicing",arr.splice(2,0,'seven'));
+      document.write("<<br/>5.reverse():-Reverses the elemsnts of array.");
+      console.log("Array after reversing ",arr.reverse());
+
+</script>
+</body>
+</html>
